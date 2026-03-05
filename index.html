@@ -1,12 +1,87 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-<title>Sales Dashboard</title>
+<meta charset="UTF-8">
+<title>Sales Analytics Dashboard</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+/* Top Navigation */
+
+.navbar{
+height:60px;
+background:#020617;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 20px;
+}
+
+.logo{
+font-size:20px;
+font-weight:bold;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:14px;
+}
+
+.menu a:hover{
+color:#38bdf8;
+}
+
+/* Dashboard Container */
+
+.dashboard{
+height:calc(100vh - 60px);
+width:100%;
+}
+
+iframe{
+width:100%;
+height:100%;
+border:none;
+}
+
+</style>
+
 </head>
 
 <body>
-<h1>Sales Dashboard</h1>
 
-<iframe title="sahiwal sale bi - Final" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTU5YTQ0YWQtNjZiNS00NTc2LTg1ZmEtYTNiYzBiMTAzMjBiIiwidCI6IjI3MTM1MTcwLTk3MTQtNDJkMi04NTI1LWMwZjZhMDkyMmYwNSIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+<div class="navbar">
+
+<div class="logo">
+📊 Sales Dashboard
+</div>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Reports</a>
+<a href="#">About</a>
+</div>
+
+</div>
+
+<div class="dashboard">
+
+<iframe
+src="PASTE_POWERBI_EMBED_LINK"
+allowFullScreen="true">
+</iframe>
+
+</div>
 
 </body>
 </html>
